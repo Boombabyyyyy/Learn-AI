@@ -1,65 +1,57 @@
-
-@import 'varriable.scss';
-@import 'mixins.scss';
-@import 'extend';
-@import 'responsive.scss';
-@import 'reset';
-@import 'btn';
-@import 'section_title';
-@import 'slick-nav.scss';
-
-
+@import '_varriable.scss';
+@import '_mixins.scss';
+@import '_extend';
+@import '_responsive.scss';
+@import '_reset';
+@import '_btn';
+@import '_section_title';
+@import '_slick-nav.scss';
 
 // header
-@import 'header';
+@import '_header';
 
 // slider
-@import 'slider';
+@import '_slider';
 
 // about
-@import 'about';
+@import '_about';
 
 // footer
-@import 'footer';
+@import '_footer';
 
 // bradcam
-@import 'bradcam';
+@import '_bradcam';
 
 // latest_blog
-@import 'latest_blog';
+@import '_latest_blog';
 
 // nesletter
-@import 'nesletter';
+@import '_nesletter';
 // nesletter
-@import 'faq';
+@import '_faq';
 
 // bradcam
-@import 'coures';
+@import '_coures';
 // bradcam
-@import 'team';
+@import '_team';
 // bradcam
-@import 'course_details';
+@import '_course_details';
 
 // bradcam
-@import 'testmonial';
+@import '_testmonial';
 // bradcam
-@import 'popular_courses';
-
-
-
+@import '_popular_courses';
 
 // other pages default
 
 // contact
-@import 'contact';
+@import '_contact';
 
 // elements
-@import 'elements.scss';
+@import '_elements.scss';
 
 // blog
-@import 'blog';
-
+@import '_blog';
 
 // blog part
-@import 'blog_part';
-
+@import '_blog_part';
