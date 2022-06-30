@@ -289,7 +289,7 @@
 
   const homedata = [
     {
-      url: 'course_details.html',
+      url: 'course_details.html?q=0',
       imageurl: 'py.jpg',
       topic: 'Python',
       name: 'Python&nbsp for beginners',
@@ -299,7 +299,7 @@
       rating: '4.0',
     },
     {
-      url: 'course_details.html',
+      url: 'course_details.html?q=1',
       imageurl: '1.png',
       topic: 'Python',
       name: `Mobile App design step by step <br />
@@ -312,7 +312,7 @@
   ];
   const profiledata = [
     {
-      url: 'course_details.html',
+      url: 'course_details.html?q=1',
       imageurl: '1.png',
       topic: 'Python',
       name: `Mobile App design step by step <br />
@@ -325,7 +325,7 @@
   ];
   const contactdata = [
     {
-      url: 'course_details.html',
+      url: 'course_details.html?q=1',
       imageurl: '1.png',
       topic: 'Python',
       name: `Mobile App design step by step <br />
@@ -338,7 +338,7 @@
   ];
   const designdata = [
     {
-      url: 'course_details.html',
+      url: 'course_details.html?q=1',
       imageurl: '1.png',
       topic: 'Python',
       name: `Mobile App design step by step <br />
@@ -351,7 +351,7 @@
   ];
   const Webdata = [
     {
-      url: 'course_details.html',
+      url: 'course_details.html?q=1',
       imageurl: '1.png',
       topic: 'Python',
       name: `Mobile App design step by step <br />
@@ -364,7 +364,7 @@
   ];
   const Web1data = [
     {
-      url: 'course_details.html',
+      url: 'course_details.html?q=1',
       imageurl: '1.png',
       topic: 'Python',
       name: `Mobile App design step by step <br />
@@ -377,7 +377,7 @@
   ];
   const Web11data = [
     {
-      url: 'course_details.html',
+      url: 'course_details.html?q=1',
       imageurl: '1.png',
       topic: 'Python',
       name: `Mobile App design step by step <br />
@@ -390,7 +390,7 @@
   ];
   const Adobe8data = [
     {
-      url: 'course_details.html',
+      url: 'course_details.html?q=1',
       imageurl: '1.png',
       topic: 'Python',
       name: `Mobile App design step by step <br />
@@ -403,7 +403,7 @@
   ];
   const Adobe9data = [
     {
-      url: 'course_details.html',
+      url: 'course_details.html?q=1',
       imageurl: '1.png',
       topic: 'Python',
       name: `Mobile App design step by step <br />
