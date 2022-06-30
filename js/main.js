@@ -294,7 +294,20 @@
       topic: 'Python',
       name: 'Python&nbsp for beginners',
       diff: 'basic',
+      orgprice: '$40',
       price: 'free',
+      rating: '4.0',
+    },
+    {
+      url: 'course_details.html',
+      imageurl: '1.png',
+      topic: 'Python',
+      name: `Mobile App design step by step <br />
+      from beginner`,
+      diff: 'basic',
+      rating: '4.5',
+      orgprice: '$89',
+      price: '$40',
     },
   ];
   const profiledata = [
@@ -407,9 +420,7 @@
     return `<div class="col-xl-4 col-lg-4 col-md-6">
     <div class="single_courses">
       <div class="thumb">
-        <a href="course/${d.url}">
-          <img src="img/courses/${d.imageurl}" alt="" />
-        </a>
+        <a href="/course/${d.url}"> <img src="img/courses/${d.imageurl}" alt="" /> </a>
       </div>
       <div class="courses_info">
         <span>${d.topic}</span>
@@ -421,11 +432,11 @@
         <div class="star_prise d-flex justify-content-between">
           <div class="star">
             <i class="flaticon-mark-as-favorite-star"></i>
-            <span>${d.diff}</span>
+            <span>(${d.rating})</span>
           </div>
           <div class="prise">
-            <span class="offer"></span>
-            <span class="active_prise">${d.price}</span>
+            <span class="offer">${d.orgprice}</span>
+            <span class="active_prise"> ${d.price} </span>
           </div>
         </div>
       </div>
