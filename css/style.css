@@ -218,7 +218,7 @@ h3 {
 
 /* line 129, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 .bg-img-1 {
-  background-image: url(../img/slider/slider-img-1.jpg);
+  background-image: url("https://res.cloudinary.com/dm8ogh4lv/image/upload/v1656842115/testmonial_zhpokn.png");
 }
 
 /* line 132, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
@@ -3242,7 +3242,7 @@ h3 {
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_testmonial.scss */
 .testimonial_bg_1 {
-  background-image: url(../img/testmonial/testmonial.png);
+  background-image: url("https://res.cloudinary.com/dm8ogh4lv/image/upload/v1656842115/testmonial_zhpokn.png");
 }
 
 /* line 4, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_testmonial.scss */
