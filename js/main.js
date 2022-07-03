@@ -291,9 +291,9 @@
     {
       url: 'course_details.html?q=0',
       imageurl:
-        'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1656842435/py_n3rvcq.jpg',
-      topic: 'Python',
-      name: 'Python&nbsp for beginners',
+        'https://www.freecodecamp.org/news/content/images/2021/08/chris-ried-ieic5Tq8YMk-unsplash.jpg',
+      topic: 'Programming',
+      name: 'Python for beginners',
       diff: 'basic',
       orgprice: 'Rs.150',
       price: 'Free',
@@ -302,10 +302,9 @@
     {
       url: 'course_details.html?q=1',
       imageurl:
-        'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1656842439/1_aumkn6.png',
-      topic: 'Python',
-      name: `Mobile App design step by step <br />
-      from beginner`,
+        'https://res.cloudinary.com/practicaldev/image/fetch/s--NOUFyZEg--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5xtfavzdsdydctb0c83x.jpg',
+      topic: 'Programming',
+      name: `Javascript for beginners`,
       diff: 'basic',
       rating: '4.5',
       orgprice: 'Rs.150',
@@ -314,9 +313,9 @@
     {
       url: 'course_details.html?q=2',
       imageurl:
-        'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1656842438/2_uaqtww.png',
-      topic: 'Adobe XD',
-      name: `UI/UX design with Adobe XD with Anderson`,
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGfTsFC9lB-bJn93wDhkJmINznC1Kkov0hbA&usqp=CAU',
+      topic: 'Programming',
+      name: `Java for beginners `,
       diff: 'basic',
       rating: '4.5',
       orgprice: 'Rs.150',
@@ -325,10 +324,9 @@
     {
       url: 'course_details.html?q=3',
       imageurl:
-        'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1656842441/3_kvu0tl.png',
-      topic: 'Wordpress',
-      name: `Wordpress theme development <br />
-      from scratch`,
+        'https://www.coursesforfree.net/wp-content/uploads/2019/08/2497360_92b2.jpg',
+      topic: 'UI/UX',
+      name: `Figma UI/UX`,
       diff: 'basic',
       rating: '4.5',
       orgprice: 'Rs.150',
@@ -337,10 +335,9 @@
     {
       url: 'course_details.html?q=4',
       imageurl:
-        'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1656842441/4_cnppi2.png',
-      topic: 'Photoshop',
-      name: `App design step by step <br />
-      from beginner`,
+        'https://i.graphicmama.com/blog/wp-content/uploads/2019/04/11142949/online-graphic-design-courses-the-most-comprehensive-guide-11.jpg',
+      topic: 'Graphic Design',
+      name: `Graphic Design Masterclass`,
       diff: 'basic',
       rating: '4.5',
       orgprice: 'Rs.150',
@@ -349,10 +346,9 @@
     {
       url: 'course_details.html?q=5',
       imageurl:
-        'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1656842442/5_n6tojw.png',
-      topic: 'UI/UX',
-      name: `How to complete user research <br />
-      and make work flow`,
+        'https://www.goacad.com/wp-content/uploads/2021/09/ppppsss-1-870x440.gif',
+      topic: 'Graphic Design',
+      name: `Adobe Photoshop`,
       diff: 'basic',
       rating: '4.5',
       orgprice: 'Rs.150',
@@ -361,10 +357,128 @@
     {
       url: 'course_details.html?q=6',
       imageurl:
-        'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1656842310/video_jckvzf.png',
-      topic: 'UI/UX',
-      name: `How to complete user research <br />
-      and make work flow`,
+        'https://www.bevyskills.com/wp-content/uploads/2021/03/canva-course.jpg',
+      topic: 'Graphic Design',
+      name: `Graphic Design using Canva`,
+      diff: 'basic',
+      rating: '4.5',
+      orgprice: 'Rs.150',
+      price: 'Free',
+    },
+    {
+      url: 'course_details.html?q=7',
+      imageurl:
+        'https://ezbrt4adg6k.exactdn.com/wp-content/uploads/2021/04/Adobe-Illustrator.jpg',
+      topic: 'Graphic Design',
+      name: `Adobe Illustrator`,
+      diff: 'basic',
+      rating: '4.5',
+      orgprice: 'Rs.150',
+      price: 'Free',
+    },
+    {
+      url: 'course_details.html?q=8',
+      imageurl:
+        'https://s3-us-west-1.amazonaws.com/angular-university/course-images/angular-pwa-course.png',
+      topic: 'Web dev',
+      name: `The complete guide to Angular development `,
+      diff: 'basic',
+      rating: '4.5',
+      orgprice: 'Rs.150',
+      price: 'Free',
+    },
+    {
+      url: 'course_details.html?q=9',
+      imageurl:
+        'https://nareshit.com/wp-content/uploads/2019/01/ReactJS-online-training-nareshit.jpg',
+      topic: 'Web dev',
+      name: `The complete guide to React Development`,
+      diff: 'basic',
+      rating: '4.5',
+      orgprice: 'Rs.150',
+      price: 'Free',
+    },
+    {
+      url: 'course_details.html?q=10',
+      imageurl: 'https://cdn-media-1.freecodecamp.org/ghost/2019/03/vueart.png',
+      topic: 'Web dev',
+      name: `The complete guide to Vue development`,
+      diff: 'basic',
+      rating: '4.5',
+      orgprice: 'Rs.150',
+      price: 'Free',
+    },
+    {
+      url: 'course_details.html?q=11',
+      imageurl:
+        'https://res.cloudinary.com/practicaldev/image/fetch/s--sHTr-q9k--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/3pj0ezd1q9vt0sdgx5r0.jpg',
+      topic: 'Mobile Development',
+      name: `Complete React Native course`,
+      diff: 'basic',
+      rating: '4.5',
+      orgprice: 'Rs.150',
+      price: 'Free',
+    },
+    {
+      url: 'course_details.html?q=12',
+      imageurl: 'https://mobignosis.com/wp-content/uploads/2019/10/Flutter.png',
+      topic: 'Mobile Development',
+      name: `Flutter & Dart- Complete Edition`,
+      diff: 'basic',
+      rating: '4.5',
+      orgprice: 'Rs.150',
+      price: 'Free',
+    },
+    {
+      url: 'course_details.html?q=13',
+      imageurl:
+        'https://www.geeky-gadgets.com/wp-content/uploads/2017/07/Apple-Swift-3.jpg',
+      topic: 'Mobile Development',
+      name: `iOS & Swift - 2022`,
+      diff: 'basic',
+      rating: '4.5',
+      orgprice: 'Rs.150',
+      price: 'Free',
+    },
+    {
+      url: 'course_details.html?q=14',
+      imageurl:
+        'https://images.shiksha.com/mediadata/images/articles/1580282235phpnjVoib.jpeg',
+      topic: 'Data Science',
+      name: `Complete Data Science course`,
+      diff: 'basic',
+      rating: '4.5',
+      orgprice: 'Rs.150',
+      price: 'Free',
+    },
+    {
+      url: 'course_details.html?q=15',
+      imageurl:
+        'https://www.devopsschool.com/assets/assets1/images/certification/master-in-ai.jpg',
+      topic: 'AI',
+      name: `AI Masterclass`,
+      diff: 'basic',
+      rating: '4.5',
+      orgprice: 'Rs.150',
+      price: 'Free',
+    },
+    {
+      url: 'course_details.html?q=16',
+      imageurl:
+        'https://www.freecodecamp.org/news/content/images/2022/01/machine-learning-banner-2.png',
+      topic: 'ML',
+      name: `ML Masterclass`,
+      diff: 'basic',
+      rating: '4.5',
+      orgprice: 'Rs.150',
+      price: 'Free',
+    },
+    {
+      url: 'course_details.html?q=17',
+      imageurl:
+        'https://ssieducation.co.in/wp-content/uploads/2020/12/download-1.png',
+      topic: 'ML',
+      name: `Python for Machine Learning`,
       diff: 'basic',
       rating: '4.5',
       orgprice: 'Rs.150',
@@ -407,7 +521,7 @@
   document.getElementById('profile').innerHTML = `<div class="row">
 
   ${homedata
-    .filter((c) => c.topic === 'Photoshop')
+    .filter((c) => c.topic === 'Programming')
     .map((d) => {
       return `<div class="col-xl-4 col-lg-4 col-md-6">
     <div class="single_courses">
@@ -482,7 +596,7 @@
 </div>`;
   document.getElementById('design').innerHTML = `<div class="row">
   ${homedata
-    .filter((c) => c.topic === 'Web Design')
+    .filter((c) => c.topic === 'Graphic Design')
     .map((d) => {
       return `<div class="col-xl-4 col-lg-4 col-md-6">
     <div class="single_courses">
@@ -519,7 +633,7 @@
 </div>`;
   document.getElementById('Web').innerHTML = `<div class="row">
   ${homedata
-    .filter((c) => c.topic === 'Web Dev')
+    .filter((c) => c.topic === 'Web dev')
     .map((d) => {
       return `<div class="col-xl-4 col-lg-4 col-md-6">
     <div class="single_courses">
@@ -556,7 +670,7 @@
   </div>`;
   document.getElementById('Web1').innerHTML = ` <div class="row">
   ${homedata
-    .filter((c) => c.topic === 'Wordpress')
+    .filter((c) => c.topic === 'Mobile Development')
     .map((d) => {
       return `<div class="col-xl-4 col-lg-4 col-md-6">
     <div class="single_courses">
@@ -593,7 +707,7 @@
   </div>`;
   document.getElementById('Web11').innerHTML = `<div class="row">
   ${homedata
-    .filter((c) => c.topic === 'Adobe XD')
+    .filter((c) => c.topic === 'Data Science')
     .map((d) => {
       return `<div class="col-xl-4 col-lg-4 col-md-6">
     <div class="single_courses">
