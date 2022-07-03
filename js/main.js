@@ -294,8 +294,8 @@
       topic: 'Python',
       name: 'Python&nbsp for beginners',
       diff: 'basic',
-      orgprice: '$40',
-      price: 'free',
+      orgprice: 'Rs.150',
+      price: 'Free',
       rating: '4.0',
     },
     {
@@ -306,118 +306,69 @@
       from beginner`,
       diff: 'basic',
       rating: '4.5',
-      orgprice: '$89',
-      price: '$40',
+      orgprice: 'Rs.150',
+      price: 'Free',
     },
-  ];
-  const profiledata = [
     {
-      url: 'course_details.html?q=1',
-      imageurl: '1.png',
-      topic: 'Python',
-      name: `Mobile App design step by step <br />
+      url: 'course_details.html?q=2',
+      imageurl: '2.png',
+      topic: 'Adobe XD',
+      name: `UI/UX design with Adobe XD with Anderson`,
+      diff: 'basic',
+      rating: '4.5',
+      orgprice: 'Rs.150',
+      price: 'Free',
+    },
+    {
+      url: 'course_details.html?q=3',
+      imageurl: '3.png',
+      topic: 'Wordpress',
+      name: `Wordpress theme development <br />
+      from scratch`,
+      diff: 'basic',
+      rating: '4.5',
+      orgprice: 'Rs.150',
+      price: 'Free',
+    },
+    {
+      url: 'course_details.html?q=4',
+      imageurl: '4.png',
+      topic: 'Photoshop',
+      name: `App design step by step <br />
       from beginner`,
       diff: 'basic',
       rating: '4.5',
-      orgprice: '$89',
-      price: '$40',
+      orgprice: 'Rs.150',
+      price: 'Free',
     },
-  ];
-  const contactdata = [
     {
-      url: 'course_details.html?q=1',
-      imageurl: '1.png',
-      topic: 'Python',
-      name: `Mobile App design step by step <br />
-    from beginner`,
+      url: 'course_details.html?q=5',
+      imageurl: '5.png',
+      topic: 'UI/UX',
+      name: `How to complete user research <br />
+      and make work flow`,
       diff: 'basic',
       rating: '4.5',
-      orgprice: '$89',
-      price: '$40',
+      orgprice: 'Rs.150',
+      price: 'Free',
     },
-  ];
-  const designdata = [
     {
-      url: 'course_details.html?q=1',
-      imageurl: '1.png',
-      topic: 'Python',
-      name: `Mobile App design step by step <br />
-    from beginner`,
+      url: 'course_details.html?q=6',
+      imageurl: '6.png',
+      topic: 'UI/UX',
+      name: `How to complete user research <br />
+      and make work flow`,
       diff: 'basic',
       rating: '4.5',
-      orgprice: '$89',
-      price: '$40',
-    },
-  ];
-  const Webdata = [
-    {
-      url: 'course_details.html?q=1',
-      imageurl: '1.png',
-      topic: 'Python',
-      name: `Mobile App design step by step <br />
-    from beginner`,
-      diff: 'basic',
-      rating: '4.5',
-      orgprice: '$89',
-      price: '$40',
-    },
-  ];
-  const Web1data = [
-    {
-      url: 'course_details.html?q=1',
-      imageurl: '1.png',
-      topic: 'Python',
-      name: `Mobile App design step by step <br />
-    from beginner`,
-      diff: 'basic',
-      rating: '4.5',
-      orgprice: '$89',
-      price: '$40',
-    },
-  ];
-  const Web11data = [
-    {
-      url: 'course_details.html?q=1',
-      imageurl: '1.png',
-      topic: 'Python',
-      name: `Mobile App design step by step <br />
-    from beginner`,
-      diff: 'basic',
-      rating: '4.5',
-      orgprice: '$89',
-      price: '$40',
-    },
-  ];
-  const Adobe8data = [
-    {
-      url: 'course_details.html?q=1',
-      imageurl: '1.png',
-      topic: 'Python',
-      name: `Mobile App design step by step <br />
-    from beginner`,
-      diff: 'basic',
-      rating: '4.5',
-      orgprice: '$89',
-      price: '$40',
-    },
-  ];
-  const Adobe9data = [
-    {
-      url: 'course_details.html?q=1',
-      imageurl: '1.png',
-      topic: 'Python',
-      name: `Mobile App design step by step <br />
-    from beginner`,
-      diff: 'basic',
-      rating: '4.5',
-      orgprice: '$89',
-      price: '$40',
+      orgprice: 'Rs.150',
+      price: 'Free',
     },
   ];
 
   document.getElementById('home').innerHTML = ` <div class="row">
-  ${homedata.map((d) => {
-    return `<div class="col-xl-4 col-lg-4 col-md-6">
+  ${homedata
+    .map((d) => {
+      return `<div class="col-xl-4 col-lg-4 col-md-6">
     <div class="single_courses">
       <div class="thumb">
         <a href="/course/${d.url}"> <img src="img/courses/${d.imageurl}" alt="" /> </a>
@@ -442,15 +393,17 @@
       </div>
     </div>
   </div>`;
-  })}
-  
+    })
+    .join('')}
   <div class="col-xl-12"></div>
 </div>`;
   document.getElementById('profile').innerHTML = `
   <div class="row">
 
-  ${profiledata.map((d) => {
-    return `<div class="col-xl-4 col-lg-4 col-md-6">
+  ${homedata
+    .filter((c) => c.topic === 'Photoshop')
+    .map((d) => {
+      return `<div class="col-xl-4 col-lg-4 col-md-6">
     <div class="single_courses">
       <div class="thumb">
         <a href="/course/${d.url}"> <img src="img/courses/${d.imageurl}" alt="" /> </a>
@@ -475,160 +428,8 @@
       </div>
     </div>
   </div>`;
-  })}
-                <div class="col-xl-4 col-lg-4 col-md-6">
-                  <div class="single_courses">
-                    <div class="thumb">
-                      <a href="#"> <img src="img/courses/1.png" alt="" /> </a>
-                    </div>
-                    <div class="courses_info">
-                      <span>Photoshop</span>
-                      <h3>
-                        <a href="#"
-                          >Mobile App design step by step <br />
-                          from beginner</a
-                        >
-                      </h3>
-                      <div class="star_prise d-flex justify-content-between">
-                        <div class="star">
-                          <i class="flaticon-mark-as-favorite-star"></i>
-                          <span>(4.5)</span>
-                        </div>
-                        <div class="prise">
-                          <span class="offer">$89.00</span>
-                          <span class="active_prise"> $49 </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6">
-                  <div class="single_courses">
-                    <div class="thumb">
-                      <a href="#"> <img src="img/courses/2.png" alt="" /> </a>
-                    </div>
-                    <div class="courses_info">
-                      <span>Adobe XD</span>
-                      <h3>
-                        <a href="#">UI/UX design with Adobe XD with Anderson</a>
-                      </h3>
-                      <div class="star_prise d-flex justify-content-between">
-                        <div class="star">
-                          <i class="flaticon-mark-as-favorite-star"></i>
-                          <span>(4.5)</span>
-                        </div>
-                        <div class="prise">
-                          <span class="offer">$89.00</span>
-                          <span class="active_prise"> $49 </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6">
-                  <div class="single_courses">
-                    <div class="thumb">
-                      <a href="#"> <img src="img/courses/3.png" alt="" /> </a>
-                    </div>
-                    <div class="courses_info">
-                      <span>Wordpress</span>
-                      <h3>
-                        <a href="#"
-                          >Wordpress theme development <br />
-                          from scratch</a
-                        >
-                      </h3>
-                      <div class="star_prise d-flex justify-content-between">
-                        <div class="star">
-                          <i class="flaticon-mark-as-favorite-star"></i>
-                          <span>(4.5)</span>
-                        </div>
-                        <div class="prise">
-                          <span class="offer">$89.00</span>
-                          <span class="active_prise"> $49 </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6">
-                  <div class="single_courses">
-                    <div class="thumb">
-                      <a href="#"> <img src="img/courses/4.png" alt="" /> </a>
-                    </div>
-                    <div class="courses_info">
-                      <span>Photoshop</span>
-                      <h3>
-                        <a href="#"
-                          >Mobile App design step by step <br />
-                          from beginner</a
-                        >
-                      </h3>
-                      <div class="star_prise d-flex justify-content-between">
-                        <div class="star">
-                          <i class="flaticon-mark-as-favorite-star"></i>
-                          <span>(4.5)</span>
-                        </div>
-                        <div class="prise">
-                          <span class="offer">$89.00</span>
-                          <span class="active_prise"> $49 </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6">
-                  <div class="single_courses">
-                    <div class="thumb">
-                      <img src="img/courses/5.png" alt="" />
-                    </div>
-                    <div class="courses_info">
-                      <span>UI/UX</span>
-                      <h3>
-                        <a href="#"
-                          >How to complete user research <br />
-                          and make work flow</a
-                        >
-                      </h3>
-                      <div class="star_prise d-flex justify-content-between">
-                        <div class="star">
-                          <i class="flaticon-mark-as-favorite-star"></i>
-                          <span>(4.5)</span>
-                        </div>
-                        <div class="prise">
-                          <span class="offer">$89.00</span>
-                          <span class="active_prise"> $49 </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6">
-                  <div class="single_courses">
-                    <div class="thumb">
-                      <a href="#"> <img src="img/courses/6.png" alt="" /> </a>
-                    </div>
-                    <div class="courses_info">
-                      <span>Wordpress</span>
-                      <h3>
-                        <a href="#"
-                          >Commitment to dedicated <br />
-                          Support</a
-                        >
-                      </h3>
-                      <div class="star_prise d-flex justify-content-between">
-                        <div class="star">
-                          <i class="flaticon-mark-as-favorite-star"></i>
-                          <span>(4.5)</span>
-                        </div>
-                        <div class="prise">
-                          <span class="offer">$89.00</span>
-                          <span class="active_prise"> $49 </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+    })
+    .join('')}
                 <div class="col-xl-12">
                   <div class="more_courses text-center">
                     <a href="#" class="boxed_btn_rev">More Courses</a>
@@ -637,8 +438,10 @@
               </div>
   `;
   document.getElementById('contact').innerHTML = `<div class="row">
-  ${contactdata.map((d) => {
-    return `<div class="col-xl-4 col-lg-4 col-md-6">
+  ${homedata
+    .filter((c) => c.topic === 'UI/UX')
+    .map((d) => {
+      return `<div class="col-xl-4 col-lg-4 col-md-6">
     <div class="single_courses">
       <div class="thumb">
         <a href="/course/${d.url}"> <img src="img/courses/${d.imageurl}" alt="" /> </a>
@@ -663,7 +466,8 @@
       </div>
     </div>
   </div>`;
-  })}
+    })
+    .join('')}
   <div class="col-xl-12">
     <div class="more_courses text-center">
       <a href="#" class="boxed_btn_rev">More Courses</a>
@@ -671,8 +475,10 @@
   </div>
 </div>`;
   document.getElementById('design').innerHTML = `<div class="row">
-  ${designdata.map((d) => {
-    return `<div class="col-xl-4 col-lg-4 col-md-6">
+  ${homedata
+    .filter((c) => c.topic === 'Web Design')
+    .map((d) => {
+      return `<div class="col-xl-4 col-lg-4 col-md-6">
     <div class="single_courses">
       <div class="thumb">
         <a href="/course/${d.url}"> <img src="img/courses/${d.imageurl}" alt="" /> </a>
@@ -697,7 +503,8 @@
       </div>
     </div>
   </div>`;
-  })}
+    })
+    .join('')}
   <div class="col-xl-12">
     <div class="more_courses text-center">
       <a href="#" class="boxed_btn_rev">More Courses</a>
@@ -705,8 +512,10 @@
   </div>
 </div>`;
   document.getElementById('Web').innerHTML = `<div class="row">
-  ${Webdata.map((d) => {
-    return `<div class="col-xl-4 col-lg-4 col-md-6">
+  ${homedata
+    .filter((c) => c.topic === 'Web Dev')
+    .map((d) => {
+      return `<div class="col-xl-4 col-lg-4 col-md-6">
     <div class="single_courses">
       <div class="thumb">
         <a href="/course/${d.url}"> <img src="img/courses/${d.imageurl}" alt="" /> </a>
@@ -731,7 +540,8 @@
       </div>
     </div>
   </div>`;
-  })}
+    })
+    .join('')}
     <div class="col-xl-12">
       <div class="more_courses text-center">
         <a href="#" class="boxed_btn_rev">More Courses</a>
@@ -739,8 +549,10 @@
     </div>
   </div>`;
   document.getElementById('Web1').innerHTML = ` <div class="row">
-  ${Web1data.map((d) => {
-    return `<div class="col-xl-4 col-lg-4 col-md-6">
+  ${homedata
+    .filter((c) => c.topic === 'Wordpress')
+    .map((d) => {
+      return `<div class="col-xl-4 col-lg-4 col-md-6">
     <div class="single_courses">
       <div class="thumb">
         <a href="/course/${d.url}"> <img src="img/courses/${d.imageurl}" alt="" /> </a>
@@ -765,7 +577,8 @@
       </div>
     </div>
   </div>`;
-  })}
+    })
+    .join('')}
     <div class="col-xl-12">
       <div class="more_courses text-center">
         <a href="#" class="boxed_btn_rev">More Courses</a>
@@ -773,8 +586,10 @@
     </div>
   </div>`;
   document.getElementById('Web11').innerHTML = `<div class="row">
-  ${Web11data.map((d) => {
-    return `<div class="col-xl-4 col-lg-4 col-md-6">
+  ${homedata
+    .filter((c) => c.topic === 'Adobe XD')
+    .map((d) => {
+      return `<div class="col-xl-4 col-lg-4 col-md-6">
     <div class="single_courses">
       <div class="thumb">
         <a href="/course/${d.url}"> <img src="img/courses/${d.imageurl}" alt="" /> </a>
@@ -799,7 +614,8 @@
       </div>
     </div>
   </div>`;
-  })}
+    })
+    .join('')}
     <div class="col-xl-12">
       <div class="more_courses text-center">
         <a href="#" class="boxed_btn_rev">More Courses</a>
@@ -807,8 +623,10 @@
     </div>
   </div>`;
   document.getElementById('Adobe-XD8').innerHTML = `<div class="row">
-  ${Adobe8data.map((d) => {
-    return `<div class="col-xl-4 col-lg-4 col-md-6">
+  ${homedata
+    .filter((c) => c.topic === 'AI')
+    .map((d) => {
+      return `<div class="col-xl-4 col-lg-4 col-md-6">
     <div class="single_courses">
       <div class="thumb">
         <a href="/course/${d.url}"> <img src="img/courses/${d.imageurl}" alt="" /> </a>
@@ -833,7 +651,8 @@
       </div>
     </div>
   </div>`;
-  })}
+    })
+    .join('')}
     <div class="col-xl-12">
       <div class="more_courses text-center">
         <a href="#" class="boxed_btn_rev">More Courses</a>
@@ -841,8 +660,10 @@
     </div>
   </div>`;
   document.getElementById('Adobe-XD9').innerHTML = `<div class="row">
-  ${Adobe9data.map((d) => {
-    return `<div class="col-xl-4 col-lg-4 col-md-6">
+  ${homedata
+    .filter((c) => c.topic === 'ML')
+    .map((d) => {
+      return `<div class="col-xl-4 col-lg-4 col-md-6">
     <div class="single_courses">
       <div class="thumb">
         <a href="/course/${d.url}"> <img src="img/courses/${d.imageurl}" alt="" /> </a>
@@ -867,7 +688,8 @@
       </div>
     </div>
   </div>`;
-  })}
+    })
+    .join('')}
     <div class="col-xl-12">
       <div class="more_courses text-center">
         <a href="#" class="boxed_btn_rev">More Courses</a>
