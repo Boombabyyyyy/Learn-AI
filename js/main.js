@@ -371,12 +371,12 @@
       return `<div class="col-xl-4 col-lg-4 col-md-6">
     <div class="single_courses">
       <div class="thumb">
-        <a href="/course/${d.url}"> <img src="img/courses/${d.imageurl}" alt="" /> </a>
+        <a href="/${d.url}"> <img src="img/courses/${d.imageurl}" alt="" /> </a>
       </div>
       <div class="courses_info">
         <span>${d.topic}</span>
         <h3>
-          <a href="/course/${d.url}"
+          <a href="/${d.url}"
             >${d.name}</a
           >
         </h3>
@@ -397,8 +397,7 @@
     .join('')}
   <div class="col-xl-12"></div>
 </div>`;
-  document.getElementById('profile').innerHTML = `
-  <div class="row">
+  document.getElementById('profile').innerHTML = `<div class="row">
 
   ${homedata
     .filter((c) => c.topic === 'Photoshop')
@@ -406,12 +405,12 @@
       return `<div class="col-xl-4 col-lg-4 col-md-6">
     <div class="single_courses">
       <div class="thumb">
-        <a href="/course/${d.url}"> <img src="img/courses/${d.imageurl}" alt="" /> </a>
+        <a href="/${d.url}"> <img src="img/courses/${d.imageurl}" alt="" /> </a>
       </div>
       <div class="courses_info">
         <span>${d.topic}</span>
         <h3>
-          <a href="/course/${d.url}"
+          <a href="/${d.url}"
             >${d.name}</a
           >
         </h3>
@@ -444,12 +443,12 @@
       return `<div class="col-xl-4 col-lg-4 col-md-6">
     <div class="single_courses">
       <div class="thumb">
-        <a href="/course/${d.url}"> <img src="img/courses/${d.imageurl}" alt="" /> </a>
+        <a href="/${d.url}"> <img src="img/courses/${d.imageurl}" alt="" /> </a>
       </div>
       <div class="courses_info">
         <span>${d.topic}</span>
         <h3>
-          <a href="/course/${d.url}"
+          <a href="/${d.url}"
             >${d.name}</a
           >
         </h3>
@@ -481,12 +480,12 @@
       return `<div class="col-xl-4 col-lg-4 col-md-6">
     <div class="single_courses">
       <div class="thumb">
-        <a href="/course/${d.url}"> <img src="img/courses/${d.imageurl}" alt="" /> </a>
+        <a href="/${d.url}"> <img src="img/courses/${d.imageurl}" alt="" /> </a>
       </div>
       <div class="courses_info">
         <span>${d.topic}</span>
         <h3>
-          <a href="/course/${d.url}"
+          <a href="/${d.url}"
             >${d.name}</a
           >
         </h3>
@@ -518,12 +517,12 @@
       return `<div class="col-xl-4 col-lg-4 col-md-6">
     <div class="single_courses">
       <div class="thumb">
-        <a href="/course/${d.url}"> <img src="img/courses/${d.imageurl}" alt="" /> </a>
+        <a href="/${d.url}"> <img src="img/courses/${d.imageurl}" alt="" /> </a>
       </div>
       <div class="courses_info">
         <span>${d.topic}</span>
         <h3>
-          <a href="/course/${d.url}"
+          <a href="/${d.url}"
             >${d.name}</a
           >
         </h3>
@@ -555,12 +554,12 @@
       return `<div class="col-xl-4 col-lg-4 col-md-6">
     <div class="single_courses">
       <div class="thumb">
-        <a href="/course/${d.url}"> <img src="img/courses/${d.imageurl}" alt="" /> </a>
+        <a href="/${d.url}"> <img src="img/courses/${d.imageurl}" alt="" /> </a>
       </div>
       <div class="courses_info">
         <span>${d.topic}</span>
         <h3>
-          <a href="/course/${d.url}"
+          <a href="/${d.url}"
             >${d.name}</a
           >
         </h3>
@@ -592,12 +591,12 @@
       return `<div class="col-xl-4 col-lg-4 col-md-6">
     <div class="single_courses">
       <div class="thumb">
-        <a href="/course/${d.url}"> <img src="img/courses/${d.imageurl}" alt="" /> </a>
+        <a href="/${d.url}"> <img src="img/courses/${d.imageurl}" alt="" /> </a>
       </div>
       <div class="courses_info">
         <span>${d.topic}</span>
         <h3>
-          <a href="/course/${d.url}"
+          <a href="/${d.url}"
             >${d.name}</a
           >
         </h3>
@@ -629,12 +628,12 @@
       return `<div class="col-xl-4 col-lg-4 col-md-6">
     <div class="single_courses">
       <div class="thumb">
-        <a href="/course/${d.url}"> <img src="img/courses/${d.imageurl}" alt="" /> </a>
+        <a href="/${d.url}"> <img src="img/courses/${d.imageurl}" alt="" /> </a>
       </div>
       <div class="courses_info">
         <span>${d.topic}</span>
         <h3>
-          <a href="/course/${d.url}"
+          <a href="/${d.url}"
             >${d.name}</a
           >
         </h3>
@@ -666,12 +665,12 @@
       return `<div class="col-xl-4 col-lg-4 col-md-6">
     <div class="single_courses">
       <div class="thumb">
-        <a href="/course/${d.url}"> <img src="img/courses/${d.imageurl}" alt="" /> </a>
+        <a href="/${d.url}"> <img src="img/courses/${d.imageurl}" alt="" /> </a>
       </div>
       <div class="courses_info">
         <span>${d.topic}</span>
         <h3>
-          <a href="/course/${d.url}"
+          <a href="/${d.url}"
             >${d.name}</a
           >
         </h3>
