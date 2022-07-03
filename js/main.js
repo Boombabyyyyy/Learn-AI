@@ -290,7 +290,8 @@
   const homedata = [
     {
       url: 'course_details.html?q=0',
-      imageurl: 'py.jpg',
+      imageurl:
+        'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1656842435/py_n3rvcq.jpg',
       topic: 'Python',
       name: 'Python&nbsp for beginners',
       diff: 'basic',
@@ -300,7 +301,8 @@
     },
     {
       url: 'course_details.html?q=1',
-      imageurl: '1.png',
+      imageurl:
+        'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1656842439/1_aumkn6.png',
       topic: 'Python',
       name: `Mobile App design step by step <br />
       from beginner`,
@@ -311,7 +313,8 @@
     },
     {
       url: 'course_details.html?q=2',
-      imageurl: '2.png',
+      imageurl:
+        'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1656842438/2_uaqtww.png',
       topic: 'Adobe XD',
       name: `UI/UX design with Adobe XD with Anderson`,
       diff: 'basic',
@@ -321,7 +324,8 @@
     },
     {
       url: 'course_details.html?q=3',
-      imageurl: '3.png',
+      imageurl:
+        'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1656842441/3_kvu0tl.png',
       topic: 'Wordpress',
       name: `Wordpress theme development <br />
       from scratch`,
@@ -332,7 +336,8 @@
     },
     {
       url: 'course_details.html?q=4',
-      imageurl: '4.png',
+      imageurl:
+        'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1656842441/4_cnppi2.png',
       topic: 'Photoshop',
       name: `App design step by step <br />
       from beginner`,
@@ -343,7 +348,8 @@
     },
     {
       url: 'course_details.html?q=5',
-      imageurl: '5.png',
+      imageurl:
+        'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1656842442/5_n6tojw.png',
       topic: 'UI/UX',
       name: `How to complete user research <br />
       and make work flow`,
@@ -354,7 +360,8 @@
     },
     {
       url: 'course_details.html?q=6',
-      imageurl: '6.png',
+      imageurl:
+        'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1656842310/video_jckvzf.png',
       topic: 'UI/UX',
       name: `How to complete user research <br />
       and make work flow`,
@@ -371,7 +378,7 @@
       return `<div class="col-xl-4 col-lg-4 col-md-6">
     <div class="single_courses">
       <div class="thumb">
-        <a href="/${d.url}"> <img src="img/courses/${d.imageurl}" alt="" /> </a>
+        <a href="/${d.url}"> <img src="${d.imageurl}" alt="" /> </a>
       </div>
       <div class="courses_info">
         <span>${d.topic}</span>
@@ -405,7 +412,7 @@
       return `<div class="col-xl-4 col-lg-4 col-md-6">
     <div class="single_courses">
       <div class="thumb">
-        <a href="/${d.url}"> <img src="img/courses/${d.imageurl}" alt="" /> </a>
+        <a href="/${d.url}"> <img src="${d.imageurl}" alt="" /> </a>
       </div>
       <div class="courses_info">
         <span>${d.topic}</span>
@@ -443,7 +450,7 @@
       return `<div class="col-xl-4 col-lg-4 col-md-6">
     <div class="single_courses">
       <div class="thumb">
-        <a href="/${d.url}"> <img src="img/courses/${d.imageurl}" alt="" /> </a>
+        <a href="/${d.url}"> <img src="${d.imageurl}" alt="" /> </a>
       </div>
       <div class="courses_info">
         <span>${d.topic}</span>
@@ -480,7 +487,7 @@
       return `<div class="col-xl-4 col-lg-4 col-md-6">
     <div class="single_courses">
       <div class="thumb">
-        <a href="/${d.url}"> <img src="img/courses/${d.imageurl}" alt="" /> </a>
+        <a href="/${d.url}"> <img src="${d.imageurl}" alt="" /> </a>
       </div>
       <div class="courses_info">
         <span>${d.topic}</span>
@@ -517,7 +524,7 @@
       return `<div class="col-xl-4 col-lg-4 col-md-6">
     <div class="single_courses">
       <div class="thumb">
-        <a href="/${d.url}"> <img src="img/courses/${d.imageurl}" alt="" /> </a>
+        <a href="/${d.url}"> <img src="${d.imageurl}" alt="" /> </a>
       </div>
       <div class="courses_info">
         <span>${d.topic}</span>
@@ -554,7 +561,7 @@
       return `<div class="col-xl-4 col-lg-4 col-md-6">
     <div class="single_courses">
       <div class="thumb">
-        <a href="/${d.url}"> <img src="img/courses/${d.imageurl}" alt="" /> </a>
+        <a href="/${d.url}"> <img src="${d.imageurl}" alt="" /> </a>
       </div>
       <div class="courses_info">
         <span>${d.topic}</span>
@@ -591,7 +598,7 @@
       return `<div class="col-xl-4 col-lg-4 col-md-6">
     <div class="single_courses">
       <div class="thumb">
-        <a href="/${d.url}"> <img src="img/courses/${d.imageurl}" alt="" /> </a>
+        <a href="/${d.url}"> <img src="${d.imageurl}" alt="" /> </a>
       </div>
       <div class="courses_info">
         <span>${d.topic}</span>
@@ -628,7 +635,7 @@
       return `<div class="col-xl-4 col-lg-4 col-md-6">
     <div class="single_courses">
       <div class="thumb">
-        <a href="/${d.url}"> <img src="img/courses/${d.imageurl}" alt="" /> </a>
+        <a href="/${d.url}"> <img src="${d.imageurl}" alt="" /> </a>
       </div>
       <div class="courses_info">
         <span>${d.topic}</span>
@@ -665,7 +672,7 @@
       return `<div class="col-xl-4 col-lg-4 col-md-6">
     <div class="single_courses">
       <div class="thumb">
-        <a href="/${d.url}"> <img src="img/courses/${d.imageurl}" alt="" /> </a>
+        <a href="/${d.url}"> <img src="${d.imageurl}" alt="" /> </a>
       </div>
       <div class="courses_info">
         <span>${d.topic}</span>
