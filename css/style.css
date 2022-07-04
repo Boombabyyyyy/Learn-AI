@@ -218,7 +218,7 @@ h3 {
 
 /* line 129, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 .bg-img-1 {
-  background-image: url("https://res.cloudinary.com/dm8ogh4lv/image/upload/v1656842115/testmonial_zhpokn.png");
+  background-image: url('https://res.cloudinary.com/dm8ogh4lv/image/upload/v1656842115/testmonial_zhpokn.png');
 }
 
 /* line 132, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
@@ -529,6 +529,7 @@ h3 {
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  margin: 30px 0px;
 }
 
 /* line 123, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_btn.scss */
@@ -3242,7 +3243,7 @@ h3 {
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_testmonial.scss */
 .testimonial_bg_1 {
-  background-image: url("https://res.cloudinary.com/dm8ogh4lv/image/upload/v1656842115/testmonial_zhpokn.png");
+  background-image: url('https://res.cloudinary.com/dm8ogh4lv/image/upload/v1656842115/testmonial_zhpokn.png');
 }
 
 /* line 4, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_testmonial.scss */
