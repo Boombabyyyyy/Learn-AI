@@ -18,6 +18,40 @@ const homedata = [
     Understand how to create your own Python programs.
     Learn Python from experienced professional software developers.
     Understand both Python 2 and Python 3.`,
+    contents: [
+      {
+        title: 'Installing Python',
+        coursedata: `Python programming 1`,
+      },
+      {
+        title: 'Variables, Strings and Operators',
+        coursedata: `Python programming 2`,
+      },
+      {
+        title: 'Program Flow Control in Python',
+        coursedata: `Python programming 3`,
+      },
+      {
+        title: 'List and Tuples',
+        coursedata: `Python programming 3`,
+      },
+      {
+        title: 'Functions',
+        coursedata: `Python programming 3`,
+      },
+      {
+        title: 'Dictionaries and Sets',
+        coursedata: `Python programming 3`,
+      },
+      {
+        title: 'Modules and Functions in Python',
+        coursedata: `Python programming 3`,
+      },
+      {
+        title: 'Object Oriented Programming',
+        coursedata: `Python programming 3`,
+      },
+    ],
   },
   {
     url: 'course_details.html?q=1',
@@ -38,6 +72,36 @@ const homedata = [
     JavaScript fundamentals: variables, if/else, operators, boolean logic, functions, arrays, objects, loops, strings, etc.
     Modern ES6+ from the beginning: arrow functions, destructuring, spread operator, optional chaining (ES2020), etc.
     Modern OOP: Classes, constructors, prototypal inheritance, encapsulation, etc.`,
+    contents: [
+      {
+        title: 'Setting up Code Editor',
+        coursedata: `Python programming 1`,
+      },
+      {
+        title: 'Variables, Strings and Operators',
+        coursedata: `Python programming 2`,
+      },
+      {
+        title: 'Program Flow Control in Javascript',
+        coursedata: `Python programming 3`,
+      },
+      {
+        title: 'Functions',
+        coursedata: `Python programming 3`,
+      },
+      {
+        title: 'JSON and ES6',
+        coursedata: `Python programming 3`,
+      },
+      {
+        title: 'Modules and Functions in Javascript',
+        coursedata: `Python programming 3`,
+      },
+      {
+        title: 'Object Oriented Programming',
+        coursedata: `Python programming 3`,
+      },
+    ],
   },
   {
     url: 'course_details.html?q=2',
@@ -55,6 +119,36 @@ const homedata = [
     Be able to sit for and pass the Oracle Java Certificate exam if you choose.
     Be able to demonstrate your understanding of Java to future employers.
     Learn industry "best practices" in Java software development from a professional Java developer who has worked in the language for 18 years.`,
+    contents: [
+      {
+        title: 'Setting up Code Editor',
+        coursedata: `Python programming 1`,
+      },
+      {
+        title: 'Variables, Strings and Operators',
+        coursedata: `Python programming 2`,
+      },
+      {
+        title: 'Program Flow Control in Java',
+        coursedata: `Python programming 3`,
+      },
+      {
+        title: 'Functions',
+        coursedata: `Python programming 3`,
+      },
+      {
+        title: 'Class and Methods',
+        coursedata: `Python programming 3`,
+      },
+      {
+        title: 'Java Packages',
+        coursedata: `Python programming 3`,
+      },
+      {
+        title: 'Object Oriented Programming',
+        coursedata: `Python programming 3`,
+      },
+    ],
   },
   {
     url: 'course_details.html?q=3',
