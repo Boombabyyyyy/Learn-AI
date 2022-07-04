@@ -17,76 +17,7 @@ console.log(q);
 //     By the end of this project, you will be able to register for a free subdomain and hosting for your website on webhost. You will be able to install WordPress on webhost and you will also be able to create an amazing medical website in WordPress.
 //     You do not need any programming skills or experience.
 //     Note: This course works best for learners who are based in the North America region. We&rsquo;re currently working on providing the same experience in other regions.`,
-//     outline: ` <div id="accordion">
-//     <div class="card">
-//         <div class="card-header" id="headingTwo">
-//             <h5 class="mb-0"> <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-//                     <i class="flaticon-question"></i> Is WordPress hosting worth it?
-//                 </button> </h5>
-//         </div>
-//         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-//             <div class="card-body">
-//                 Our set he for firmament morning sixth subdue darkness creeping gathered divide our
-//                 let god moving. Moving in fourth air night bring upon
-// </div>
-//         </div>
-//     </div>
-//     <div class="card">
-//         <div class="card-header" id="headingOne">
-//             <h5 class="mb-0"> <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-//                     <i class="flaticon-question"></i>Basic Classes
-//                 </span> </button>
-//         </h5>
-//     </div>
-//     <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion" style="">
-//         <div class="card-body">
-//             Our set he for firmament morning sixth subdue darkness creeping gathered divide our
-//             let god moving. Moving in fourth air night bring upon
-// </div>
-//     </div>
-// </div>
-// <div class="card">
-//     <div class="card-header" id="headingThree">
-//         <h5 class="mb-0"> <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-//                 <i class="flaticon-question"></i> Will you transfer my site?
-//             </button> </h5>
-//     </div>
-//     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-//         <div class="card-body">
-//             Our set he for firmament morning sixth subdue darkness creeping gathered divide our
-//             let god moving. Moving in fourth air night bring upon
-// </div>
-//     </div>
-// </div>
-// <div class="card">
-//     <div class="card-header" id="heading_4">
-//         <h5 class="mb-0"> <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse_4" aria-expanded="false" aria-controls="collapse_4">
-//                 <i class="flaticon-question"></i> Why should I host with Hostza?
-//             </button> </h5>
-//     </div>
-//     <div id="collapse_4" class="collapse" aria-labelledby="heading_4" data-parent="#accordion">
-//         <div class="card-body">
-//             Our set he for firmament morning sixth subdue darkness creeping gathered divide our
-//             let god moving. Moving in fourth air night bring upon
-// </div>
-//     </div>
-// </div>
-// <div class="card">
-//     <div class="card-header" id="heading_5">
-//         <h5 class="mb-0"> <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse_5" aria-expanded="false" aria-controls="collapse_5">
-//                 <i class="flaticon-question"></i> How do I get started
-//                 <span>with Shared
-//                             Hosting?</span>
-//             </button> </h5>
-//     </div>
-//     <div id="collapse_5" class="collapse" aria-labelledby="heading_5" data-parent="#accordion">
-//         <div class="card-body">
-//             Our set he for firmament morning sixth subdue darkness creeping gathered divide our
-//             let god moving. Moving in fourth air night bring upon
-// </div>
-//     </div>
-// </div>
-// </div>`,
+//     outline: ` `,
 //     authorname: 'Macau Wilium',
 //     authorjob: 'UI/UX Designer',
 //     authordesc: 'what an amazing author!',
@@ -107,3 +38,22 @@ document.getElementById('video-thumb').innerHTML = `<img
 src="${coursedata[q].imageurl}"
 alt=""
 />`;
+
+document.getElementById('accordion').innerHTML = coursedata[q].contents
+  .map((d, idx) => {
+    return `
+    <div class="card">
+                         <div class="card-header" id="${idx}wrapper">
+                             <h5 class="mb-0"> <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#${idx}" aria-expanded="false" aria-controls="${idx}">
+                                     <i class="flaticon-premium"></i> ${d.title}
+                                 </button> </h5>
+                         </div>
+                         <div id="${idx}" class="collapse" aria-labelledby="${idx}" data-parent="#accordion">
+                             <div class="card-body">
+                                ${d.coursedata}
+                          </div>
+                         </div>
+                     </div>
+    `;
+  })
+  .join('');
