@@ -24,7 +24,7 @@ const homedata = [
         coursedata: `<iframe
         width="420"
         height="315"
-        src="https://www.youtube.com/embed?v=eXBD2bB9-RA&list=PLQVvvaa0QuDeAams7fkdcwOGBpGdHpXln"
+        src="https://www.youtube-nocookie.com/embed/eXBD2bB9-RA"
       ></iframe>`,
       },
       {
@@ -32,7 +32,7 @@ const homedata = [
         coursedata: `<iframe
         width="420"
         height="315"
-        src="https://www.youtube.com/embed?v=pLniTMTW0vE"
+        src="https://www.youtube-nocookie.com/embed/pLniTMTW0vE"
       ></iframe>`,
       },
       {
@@ -40,7 +40,7 @@ const homedata = [
         coursedata: `<iframe
         width="420"
         height="315"
-        src="https://www.youtube.com/embed?v=n9TQZIiFiQs"
+        src="https://www.youtube-nocookie.com/embed/n9TQZIiFiQs"
       ></iframe>`,
       },
       {
@@ -48,7 +48,7 @@ const homedata = [
         coursedata: `<iframe
         width="420"
         height="315"
-        src="https://www.youtube.com/embed?v=hdzxzBRXKJ0"
+        src="https://www.youtube-nocookie.com/embed/hdzxzBRXKJ0"
       ></iframe>`,
       },
       {
@@ -56,7 +56,7 @@ const homedata = [
         coursedata: `<iframe
         width="420"
         height="315"
-        src="https://www.youtube.com/embed?v=u-OmVr_fT4s"
+        src="https://www.youtube-nocookie.com/embed/u-OmVr_fT4s"
       ></iframe>`,
       },
       {
@@ -64,7 +64,7 @@ const homedata = [
         coursedata: `<iframe
         width="420"
         height="315"
-        src="https://www.youtube.com/embed?v=WA_JDDaaMe0"
+        src="https://www.youtube-nocookie.com/embed/WA_JDDaaMe0"
       ></iframe>`,
       },
       {
@@ -72,7 +72,7 @@ const homedata = [
         coursedata: `<iframe
         width="420"
         height="315"
-        src="https://www.youtube.com/embed?v=1RuMJ53CKds"
+        src="https://www.youtube-nocookie.com/embed/1RuMJ53CKds"
       ></iframe>`,
       },
       {
@@ -80,7 +80,7 @@ const homedata = [
         coursedata: `<iframe
         width="420"
         height="315"
-        src="https://www.youtube.com/embed?v=JeznW_7DlB0"
+        src="https://www.youtube-nocookie.com/embed/JeznW_7DlB0"
       ></iframe>`,
       },
     ],
@@ -107,31 +107,31 @@ const homedata = [
     contents: [
       {
         title: 'Introduction',
-        coursedata: `https://www.youtube.com/embed?v=Ia0FSogTRaw`,
+        coursedata: `https://www.youtube-nocookie.com/embed/Ia0FSogTRaw`,
       },
       {
         title: 'Variables, Strings and Operators',
-        coursedata: `https://www.youtube.com/embed?v=edlFjlzxkSI`,
+        coursedata: `https://www.youtube-nocookie.com/embed/edlFjlzxkSI`,
       },
       {
         title: 'Program Flow Control in Javascript',
-        coursedata: `https://www.youtube.com/embed?v=JloLGV9DmtQ`,
+        coursedata: `https://www.youtube-nocookie.com/embed/JloLGV9DmtQ`,
       },
       {
         title: 'Functions',
-        coursedata: `https://www.youtube.com/embed?v=xjAu2Y2nJ34`,
+        coursedata: `https://www.youtube-nocookie.com/embed/xjAu2Y2nJ34`,
       },
       {
         title: 'JSON and ES6',
-        coursedata: `https://www.youtube.com/embed?v=NCwa_xi0Uuc`,
+        coursedata: `https://www.youtube-nocookie.com/embed/NCwa_xi0Uuc`,
       },
       {
         title: 'Modules in Javascript',
-        coursedata: `https://www.youtube.com/embed?v=cRHQNNcYf6s`,
+        coursedata: `https://www.youtube-nocookie.com/embed/cRHQNNcYf6s`,
       },
       {
         title: 'Object Oriented Programming',
-        coursedata: `https://www.youtube.com/embed?v=PFmuCDHHpwk`,
+        coursedata: `https://www.youtube-nocookie.com/embed/PFmuCDHHpwk`,
       },
     ],
   },
@@ -238,7 +238,7 @@ const homedata = [
     objectives: `You will be able to start earning money from your Photoshop Skills.
     You will be able to add Photoshop to your CV
     You will have over 20 of your own projects to add to your portfolio.
-    You will create social media post images for Facebook, Instagram, Twitter, Pintrest & Youtube.
+    You will create social media post images for Facebook, Instagram, Twitter, Pintrest & youtube-nocookie.
     You will be able to mask anything… including the dreaded hair!
     Clearcut images. Create amazing typography.
     You will create popular visual styles.`,
