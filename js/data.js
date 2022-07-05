@@ -21,35 +21,67 @@ const homedata = [
     contents: [
       {
         title: 'Installing Python',
-        coursedata: `Python programming 1`,
+        coursedata: `<iframe
+        width="420"
+        height="315"
+        src="https://www.youtube.com/embed?v=eXBD2bB9-RA&list=PLQVvvaa0QuDeAams7fkdcwOGBpGdHpXln"
+      ></iframe>`,
       },
       {
         title: 'Variables, Strings and Operators',
-        coursedata: `Python programming 2`,
+        coursedata: `<iframe
+        width="420"
+        height="315"
+        src="https://www.youtube.com/embed?v=pLniTMTW0vE"
+      ></iframe>`,
       },
       {
         title: 'Program Flow Control in Python',
-        coursedata: `Python programming 3`,
+        coursedata: `<iframe
+        width="420"
+        height="315"
+        src="https://www.youtube.com/embed?v=n9TQZIiFiQs"
+      ></iframe>`,
       },
       {
         title: 'List and Tuples',
-        coursedata: `Python programming 3`,
+        coursedata: `<iframe
+        width="420"
+        height="315"
+        src="https://www.youtube.com/embed?v=hdzxzBRXKJ0"
+      ></iframe>`,
       },
       {
         title: 'Functions',
-        coursedata: `Python programming 3`,
+        coursedata: `<iframe
+        width="420"
+        height="315"
+        src="https://www.youtube.com/embed?v=u-OmVr_fT4s"
+      ></iframe>`,
       },
       {
         title: 'Dictionaries and Sets',
-        coursedata: `Python programming 3`,
+        coursedata: `<iframe
+        width="420"
+        height="315"
+        src="https://www.youtube.com/embed?v=WA_JDDaaMe0"
+      ></iframe>`,
       },
       {
-        title: 'Modules and Functions in Python',
-        coursedata: `Python programming 3`,
+        title: 'Modules in Python',
+        coursedata: `<iframe
+        width="420"
+        height="315"
+        src="https://www.youtube.com/embed?v=1RuMJ53CKds"
+      ></iframe>`,
       },
       {
         title: 'Object Oriented Programming',
-        coursedata: `Python programming 3`,
+        coursedata: `<iframe
+        width="420"
+        height="315"
+        src="https://www.youtube.com/embed?v=JeznW_7DlB0"
+      ></iframe>`,
       },
     ],
   },
@@ -74,32 +106,32 @@ const homedata = [
     Modern OOP: Classes, constructors, prototypal inheritance, encapsulation, etc.`,
     contents: [
       {
-        title: 'Setting up Code Editor',
-        coursedata: `Python programming 1`,
+        title: 'Introduction',
+        coursedata: `https://www.youtube.com/embed?v=Ia0FSogTRaw`,
       },
       {
         title: 'Variables, Strings and Operators',
-        coursedata: `Python programming 2`,
+        coursedata: `https://www.youtube.com/embed?v=edlFjlzxkSI`,
       },
       {
         title: 'Program Flow Control in Javascript',
-        coursedata: `Python programming 3`,
+        coursedata: `https://www.youtube.com/embed?v=JloLGV9DmtQ`,
       },
       {
         title: 'Functions',
-        coursedata: `Python programming 3`,
+        coursedata: `https://www.youtube.com/embed?v=xjAu2Y2nJ34`,
       },
       {
         title: 'JSON and ES6',
-        coursedata: `Python programming 3`,
+        coursedata: `https://www.youtube.com/embed?v=NCwa_xi0Uuc`,
       },
       {
-        title: 'Modules and Functions in Javascript',
-        coursedata: `Python programming 3`,
+        title: 'Modules in Javascript',
+        coursedata: `https://www.youtube.com/embed?v=cRHQNNcYf6s`,
       },
       {
         title: 'Object Oriented Programming',
-        coursedata: `Python programming 3`,
+        coursedata: `https://www.youtube.com/embed?v=PFmuCDHHpwk`,
       },
     ],
   },
